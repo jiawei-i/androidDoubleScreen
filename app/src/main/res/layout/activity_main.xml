@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="36dp"
+        android:layout_weight="1"
+        android:text="双屏设置,把想要展示的图片放到U盘的 PhotoShow 文件夹（没有文件夹就新建）中，将U盘插入后识别到有图片就会自动弹出复制图片的界面，复制成功后点击 “双屏异显”即可" />
+
+    <TextView
+        android:id="@+id/confirm_tv"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_margin="36dp"
+        android:background="@drawable/corners_4_3789f3_bg"
+        android:gravity="center"
+        android:text="双屏异显"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/same_tv"
+        android:layout_width="120dp"
+        android:layout_height="72dp"
+        android:layout_margin="36dp"
+        android:background="@drawable/corners_4_3789f3_bg"
+        android:gravity="center"
+        android:text="双屏同显"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
